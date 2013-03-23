@@ -1,9 +1,11 @@
 <?php
+//---------------------------------------------------------
+//Functions credit to http://stackoverflow.com/users/47529/chaos
+//	From this thread 
+//		http://stackoverflow.com/questions/1147931/how-do-i-determine-the-extensions-associated-with-a-mime-type-in-php
+//No licensing terms were defined they are being re-released under LGPLv2
+//---------------------------------------------------------
 
-//----------------------------------
-//some mime type handling stuff
-//	i stole off stack overflow
-//----------------------------------
 function system_extension_mime_types() {
 	# Returns the system MIME type mapping of extensions to MIME types, as defined in /etc/mime.types.
 	$out = array();
