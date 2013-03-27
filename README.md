@@ -6,8 +6,6 @@ Mimetype helper functions
 Usage
 ----
 ```php
-ld('func/mimetype');
-
 $file = 'test.html';
 $mimetype = system_extension_mime_type($file); //returns text/html
 $ext = system_mime_type_extension('text/html'); //returns .html
